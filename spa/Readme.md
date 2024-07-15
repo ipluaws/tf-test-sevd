@@ -1,0 +1,2 @@
+This Single Page Application (SPA) is developed in React and is deployed using Amazon S3 and CloudFront. Whenever a change is committed to the code repository, the pipeline triggers a build process. This build process constructs the application and then synchronizes the latest version of the application with the S3 bucket for deployment.
+We have used some repository secrets to execute the github actions pipeline, such as AWS_S3_BUCKET_NAME, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY and AWS_REGION. These values has to be added accordingly before executing the pipeline.
