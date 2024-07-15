@@ -1,0 +1,2 @@
+infra/.terraform/providers/registry.terraform.io/hashicorp/aws/*
+infra/tf-remote-state/.terraform/providers/registry.terraform.io/hashicorp/aws/*
