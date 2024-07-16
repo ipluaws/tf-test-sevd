@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [message] = useState('Welcome to the React App SPA');
+  const [message] = useState('Hello from your React App SPA');
   const [backendMessage, setBackendMessage] = useState('');
 
   const fetchBackendMessage = async () => {
